@@ -1,5 +1,30 @@
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
+}
+
+.nav-bar {
+    display: flex;
+    background-color: black;
+    color: white;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 2em;
+}
+
+.nav-bar a {
+color: aliceblue;
+}
+
+.nav-item-1, .nav-item-2 ,.nav-item-3 {
+ display: flex;
+ font-family: Arial, Helvetica, sans-serif;
+ margin: 1rem auto;
 }
 
 .App-logo {
